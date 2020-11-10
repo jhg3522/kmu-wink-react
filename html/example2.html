@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../asset/css/style.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Goohbook</h1>
+    </div>
+    <div class="container">
+        <textarea id="Post_area"></textarea>
+        <button onclick="postClick()">입력</button>
+    </div>
+    <div id="timeline">
+        <div class="wrap">
+            <h2>정현구</h2>
+            <p>안녕하세요 ^^</p>
+        </div>
+    </div>
+</body>
+<script>
+    let postVal= document.querySelector('#Post_area');
+    let timeline = document.querySelector('#timeline');
+
+    window.onload = async () =>{
+        const postResponse = await fetch( 'http://ec2-52-78-131-251.ap-northeast-2.compute.amazonaws.com/feed/',{
+            method: 'get',
+        });
+
+        const posts = await postResponse.json();
+        console.log(posts)
+        for(let i =0; i < posts.length; i++){
+            post(posts[i].owner ,posts[i].content);
+        }
+    }
+
+    const postClick =() =>{
+        post("정현구",postVal.value)
+    }
+
+    const post = (name, description) =>{
+        //if(postVal.value==="") alert("내용을 작성하세요!");
+
+        let wrap = document.createElement('div');
+        wrap.setAttribute('class','wrap');
+
+        let owner = document.createElement('h2');
+        let content = document.createElement('p');
+
+        owner.appendChild(document.createTextNode(name));
+        content.appendChild(document.createTextNode(description));
+
+        wrap.appendChild(owner);
+        wrap.appendChild(content);
+
+        timeline.appendChild(wrap);
+
+    }
+</script>
+</html>

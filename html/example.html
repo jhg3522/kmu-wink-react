@@ -10,7 +10,7 @@
         <h1>Goohbook</h1>
     </div>
     <div class="container">
-        <textarea id="Postarea"></textarea>
+        <textarea id="Post_area"></textarea>
         <button onclick="Post()">입력</button>
     </div>
     <div id="timeline">
@@ -21,6 +21,23 @@
     </div>
 </body>
 <script>
+    let timeline = document.querySelector('#timeline');
+    const postVal= document.querySelector('#Post_area');
+    console.log(postVal);
+    function Post(){
+        const postVal= document.querySelector('#Post_area').value;
+        let wrap = document.createElement('div');
+        wrap.setAttribute('class','wrap');
 
+        let owner = document.createElement('h2');
+        let content = document.createElement('p');
+        owner.appendChild(document.createTextNode('정현구'));
+        content.appendChild(document.createTextNode(postVal));
+        console.log(postVal);
+        wrap.appendChild(owner);
+        wrap.appendChild(content);
+
+        timeline.insertBefore(wrap, timeline.children[0]);
+    }
 </script>
 </html>
