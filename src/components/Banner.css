@@ -1,0 +1,46 @@
+.Banner{
+    position: relative;
+    width: 375px;
+    height: 219px;
+}
+.Banner .Banner_img{
+    width: 375px;
+    height: 219px;
+}
+
+.Banner-text1{
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 375px;
+    height: 63px;
+    left: 60px;
+    top: 80px;
+    color: #FFFFFF;
+
+    text-shadow: 0px 3.17333px 3.17333px rgba(0, 0, 0, 0.25);
+}
+
+.Banner-text2{
+    position: absolute;
+    width: 375px;
+    height: 26.01px;
+    left: 180px;
+    bottom: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 3.17333px 3.17333px rgba(0, 0, 0, 0.25);
+}

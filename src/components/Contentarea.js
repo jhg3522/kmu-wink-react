@@ -1,5 +1,5 @@
 import React from 'react';
-import './Titlearea.css'
+import './Contentarea.css'
 
 const Contentarea = (props) => {
     return <textarea className='Contentarea' placeholder={props.placeholder}/>

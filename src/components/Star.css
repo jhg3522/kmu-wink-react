@@ -1,0 +1,13 @@
+.star-wrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.star {
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+}

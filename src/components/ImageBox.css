@@ -1,0 +1,12 @@
+.imagebox-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-wrap{
+    width: 101px;
+    height: 102px;
+    margin-right: 12px;
+}

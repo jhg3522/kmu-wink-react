@@ -5,4 +5,11 @@
     border-radius: 10px;
     border-width: 0;
     border-style: none;
+    margin: 0 auto;
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #938E8E;
 }
