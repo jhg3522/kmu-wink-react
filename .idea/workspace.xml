@@ -21,13 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c5bc7b5-7f30-4701-b475-b11d7879dc02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contentarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contentarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contentarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contentarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Titlearea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Titlearea.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
       <updated>1606061260049</updated>
       <workItem from="1606061261114" duration="626000" />
       <workItem from="1606134118126" duration="3393000" />
-      <workItem from="1606742605475" duration="9348000" />
+      <workItem from="1606742605475" duration="10341000" />
     </task>
     <servers />
   </component>

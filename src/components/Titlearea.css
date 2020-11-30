@@ -12,4 +12,6 @@
     font-size: 14px;
     line-height: 16px;
     color: #938E8E;
+    resize: none;
+    outline: 0;
 }
