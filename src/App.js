@@ -1,22 +1,22 @@
 import './App.css';
 import React, { Component } from 'react';
 import Btn from './components/Btn.js'
-import Textarea from './components/Textarea.js'
+import Titlearea from './components/Titlearea.js'
+import Header from "./components/Header";
+import Contentarea from "./components/Contentarea";
 
 class App extends Component {
   render() {
     return (
         <div className="App">
-          <Textarea
-              placeholder="제목"/>
-          <Textarea
-              placeholder="아아아아아아악"/>
-          <Btn
-              name="클릭해보시던가"
-          />
-          <Btn
-              name="취소"
-          />
+            <Header name="리뷰 남기기" />
+            <Titlearea id="title"
+                       placeholder="제목"/>
+            <Contentarea id="content"
+                       placeholder="내용"/>
+            <Btn
+              name="댓글 작성"
+            />
         </div>
     );
   }
